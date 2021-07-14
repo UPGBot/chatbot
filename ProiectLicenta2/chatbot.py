@@ -10,8 +10,8 @@ lemmatizer = WordNetLemmatizer()
 
 import numpy as np
 
-import tkinter
-from tkinter import *
+# import tkinter
+# from tkinter import *
 
 intents = json.loads(open('intents.json').read())
 words = pickle.load(open('words.pkl','rb'))
