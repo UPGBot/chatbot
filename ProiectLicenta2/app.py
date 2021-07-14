@@ -2,6 +2,9 @@ import flask
 from flask import request
 from flask.json import jsonify
 from chatbot import chatbot_response
+import nltk
+nltk.download('punkt')
+nltk.download('wordnet')
 
 app = flask.Flask(__name__)
 
