@@ -10,4 +10,3 @@ def get_message():
     message = request.args["message"]
     return jsonify(chatbot = chatbot_response(message))
 
-app.run()
