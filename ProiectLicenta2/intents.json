@@ -1,0 +1,103 @@
+{"intents" : [
+    {"tag": "salut",
+    "patterns" : ["buna ziua", "salut", "hi" , "buna"],
+    "responses" : ["Salut!", "Hey!", "Buna ziua!", "Ce pot face pentru dumneavoastra?"],
+    "context" : [""]
+},
+
+{"tag": "laRevedere",
+    "patterns" : ["pa" , "la revedere", "ciao", "am plecat"],
+    "responses" : ["La revedere!", "o zi buna!", "Ciao!"],
+    "context" : [""]
+},
+
+{"tag": "CeFaci",
+    "patterns" : ["ce faci", "cum esti", "ce mai faci", "ce zici", "ce mai zici"],
+    "responses" : ["Bine! Tu?", "Joc sah , tu?" , "Ma uitam la serial, dvs.?"],
+    "context" : [""]
+},
+
+{"tag": "cumTeNumesti",
+    "patterns" : ["cum te numesti", "care este numele tau", "cum te cheama", "cine esti"],
+    "responses" : ["Eu sunt UPG Bot. Sunt o inteligenta artificiala ce iti poate raspunde la intrebari legate de Universitatea Petrol-Gaze din PLoiesti"],
+    "context" : [""]
+},
+
+{"tag": "secretariat",
+    "patterns" : ["care este programul la secretariat", "care este programul secretariatului", " secretariat", "program secretariat"],
+    "responses" : ["De luni pana vineri : 9 am - 12 pm / 13 pm - 15 pm"],
+    "context" : [""]
+},
+
+{"tag": "locatieFacultate",
+    "patterns" : ["unde se afla facultatea", "unde gasesc facultatea", "adresa facultatii","locatie", "adresa"],
+    "responses" : ["Universitatea Petrol-Gaze din Ploiesti B-dul BUCURESTI, Nr. 39 PLOIESTI, Cod 100680"],
+    "context" : [""]
+},
+{"tag": "contactSecretariat",
+    "patterns" : ["numar de contact", "numar de telefon" , "cum pot contacta secretariatul"],
+    "responses" : ["Datele de contact ale secretariatului sunt : Tel.: +40-244-573171/int. 131, 129, 270, 299 ; Fax: +40-244-575847"],
+    "context" : [""]
+},
+
+{"tag": "casierieProgram",
+    "patterns" : ["care este programul casieriei", "orele de lucru casierie","casierie","program lucru casierie"],
+    "responses" : ["Programul casieriei este : L-J  : (08:00 - 11:30) - (12:30 - 14:00) ; V  : (08:00 - 10:00) - (11:00 - 13:00)"],
+    "context" : [""]
+},
+
+{"tag": "structuraAnUniversitar",
+    "patterns" : ["unde pot afla detalii despre structura anului universitar" , "structura an universitar","cum se desfasoara anul universitar"],
+    "responses" : ["Detalii la acest link : https://www.upg-ploiesti.ro/index.php/ro/structura-anului-universitar"],
+    "context" : [""]
+},
+
+{"tag": "detaliiAdmitereLicenta",
+    "patterns" : ["care sunt conditiile de admitere la licenta", "conditii admitere licenta", "cum se desfasoara admiterea la licenta", "detalii admitere licenta"],
+    "responses" : ["Toate detaliile despre admitere la programul de licenta le puteti gasii la acest link : https://www.upg-ploiesti.ro/ro/admitere-2021-licenta"],
+    "context" : [""]
+},
+
+{"tag": "detaliiAdmitereMaster",
+    "patterns" : ["detalii admitere master", "master", "admite master", "unde pot gasii detalii despre admiterea la master"],
+    "responses" : ["Toate detalii despre master se pot gasii la acest link : https://www.upg-ploiesti.ro/ro/admitere-2021-master"],
+    "context" : [""]
+},
+
+{"tag": "orare",
+    "patterns" : ["orar", "orar ime", "orar upg" , "detalii orare", "detalii orar", "unde pot gasii detalii despre orarul facultatii"],
+    "responses" : ["Toate detaliile despre orar le puteti afla de pe : http://ac.upg-ploiesti.ro/orar.php"],
+    "context" : [""]
+},
+
+{"tag": "specializari",
+    "patterns" : ["specializare", "specializari", "specializari disponibile", "specializari ime", "ce specializari sunt la facultatea IME"],
+    "responses" : ["Specializarile disponibile la IME UPG sunt : Automatica si Informatica Aplicata , Calucalatoare, Electromecanica si Inginerie Economica in domeniul Mecanic"],
+    "context" : [""]
+},
+
+{"tag": "detaliiSpecializari",
+    "patterns" : ["detalii specializare", "continut specializari", "de unde pot afla detalii despre specializari"],
+    "responses" : ["Puteti gasii aceste detalii accesand link-ul : http://ac.upg-ploiesti.ro/specializari.php"],
+    "context" : [""]
+},
+
+{"tag": "detaliiBurse",
+    "patterns" : ["burse", "bursa", "detalii bursa", "unde pot gasii detaliile pentru bursa", "situatii bursa"],
+    "responses" : ["Tot ce trebuie sa stiti despre burse puteti gasii pe : https://www.upg-ploiesti.ro/ro/burse"],
+    "context" : [""]
+},
+
+{"tag": "prezentareUPG",
+    "patterns" : ["prezentare upg", "prezentare", "detalii privind facultatea", "unde gasesc detalii despre facultate"],
+    "responses" : ["Facultatea IME are o prezentare elaborata si frumoasa daca accesati link-ul : https://www.upg-ploiesti.ro/ro"],
+    "context" : [""]
+},
+
+{"tag": "membriUPG",
+    "patterns" : ["membri", "membri upg", "detalii membri"],
+    "responses" : ["Puteti afla mai multe detalii despre membrii IME pe pagina : http://ac.upg-ploiesti.ro/membri.php"],
+    "context" : [""]
+}
+
+]}
